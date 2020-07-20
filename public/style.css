@@ -1,0 +1,69 @@
+home, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Khand', sans-serif;
+    font-size: 0.69em;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    min-height: 5%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+}
+
+header div {
+    padding: 0.6em;
+}
+
+header form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+}
+
+header form input {
+    width: 22rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #666;
+    border-radius: 1.3em;
+    padding: 0.83em 0.5em 0.83em 2.65em;
+    font-size: 1.3em;
+    border: none;
+}
+
+header form img {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    color: #666;
+    width: 2rem;
+    height: 2rem;
+}
+
+header form button {
+    display: none;
+}
+
+hr {
+    display: block;
+    height: 1.2px;
+    width: 80%;
+    background-color: #fff;
+    margin-left: 0;
+    border: none;
+}
